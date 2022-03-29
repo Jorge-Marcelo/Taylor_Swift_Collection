@@ -1,0 +1,1144 @@
+/*Configuraçãos do html*/
+html{
+height: 100%;
+margin: 0;
+}
+        
+        
+/*Configurações do corpo do site*/
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+list-style: none;
+box-sizing: border-box;
+font-family: 'Bebas Neue', cursive;
+font-family: 'News Cycle', sans-serif;
+overflow-x: hidden;
+}
+
+
+.logo
+{
+color: rgb(0, 0, 0);
+font-weight: 900;
+font-size: 2em;
+display: flex;
+flex-direction: row;
+font-family: 'Bebas Neue', cursive;
+margin: 10px auto;
+}
+/*----------------------------------------------------------------------------*/
+
+/*Responsividade da logo*/
+@media(min-width: 300px)
+{
+.logo
+{
+font-size: 1.4em;
+}
+@media(min-width: 360px)
+{
+.logo
+{
+font-size: 1.7em;
+}
+}
+}
+
+
+/*Barra de Navegação*/
+#header
+{
+box-sizing: border-box;
+height: 50px;
+padding: 1rem;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-family: 'Bebas Neue', cursive;
+font-size: 0.9em;
+background-color: #f9db79;
+width: 100%;
+}
+
+/*Capa*/
+.capa
+{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+/*----------------------------------------------------------------------------*/
+/*Seleção de Albuns*/
+.nav-albuns
+{
+font-family: 'Patrick Hand', cursive;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:center;
+width: 100%;
+}
+
+
+.img-albuns
+{
+display: flex;
+flex-direction: row;
+}
+
+.img-albuns img 
+{
+margin: 5px 5px;
+border: 3px solid #dc8b39;
+}
+
+/*Responsividade da selação de albuns*/
+@media (max-width: 1190px) 
+{
+.img-albuns img 
+{
+width: 300px;
+height: 300px;
+}
+}
+
+@media (max-width: 950px) 
+{
+.img-albuns img 
+{
+width: 200px;
+height: 200px;
+}
+}
+
+@media (max-width: 920px) 
+{
+.img-albuns img 
+{
+width: 200px;
+height: 200px;
+}
+}
+
+@media (max-width: 840px) 
+{
+.img-albuns img 
+{
+width: 260px;
+height: 260px;
+}
+}
+
+@media (max-width: 820px) 
+{
+.img-albuns img 
+{
+width: 255px;
+height: 255px;
+}
+}
+
+
+@media (max-width: 810px) 
+{
+.img-albuns img 
+{
+width: 240px;
+height: 240px;
+}
+}
+
+@media (max-width: 800px) 
+{
+.img-albuns img 
+{
+width: 230px;
+height: 230px;
+}
+}
+
+@media (max-width: 770px) 
+{
+.img-albuns img 
+{
+width: 220px;
+height: 220px;
+}
+}
+
+@media (max-width: 720px) 
+{
+.img-albuns img 
+{
+width: 210px;
+height: 210px;
+}
+}
+
+
+
+
+
+
+@media (max-width: 650px) 
+{
+.img-albuns img 
+{
+width: 190px;
+height: 190px;
+}
+}
+
+@media (max-width: 610px) 
+{
+.img-albuns img 
+{
+width: 170px;
+height: 170px;
+}
+}
+
+@media (max-width: 540px) 
+{
+.img-albuns img 
+{
+width: 150px;
+height: 150px;
+}
+}
+
+@media (max-width: 430px) 
+{
+.img-albuns img 
+{
+width: 125px;
+height: 125px;
+}
+}
+
+@media (max-width: 415px) 
+{
+.img-albuns img 
+{
+width: 120px;
+height: 120px;
+}
+}
+
+@media (max-width: 393px) 
+{
+.img-albuns img 
+{
+width: 100px;
+height: 100px;
+}
+}
+
+@media (max-width: 360px) 
+{
+.img-albuns img 
+{
+width: 100px;
+height: 100px;
+}
+}
+
+@media (max-width: 355px) 
+{
+.img-albuns img 
+{
+width: 90px;
+height: 90px;
+}
+}
+
+@media (max-width: 320px) 
+{
+.img-albuns img 
+{
+width: 80px;
+height: 80px;
+}
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+/*Alinhamento dos itens da lista*/
+nav ul li.itens-nav{
+position: relative;
+width: auto;
+margin: 0 16px;
+text-align: center;  
+font-family: 'Bebas Neue', cursive; 
+}
+        
+        
+/*Configurações de tamanhos de texto e cores dos itens da lista  */
+nav ul li a{
+color: rgb(3, 0, 0);
+font-size: 1.2em;
+text-decoration: none;
+transition: 0.5s ease-in;
+font-family: 'Bebas Neue', cursive;
+    
+}
+          
+
+
+
+          
+          
+        
+/*Configurações do efeito de  passar o mouse*/
+    
+nav ul li a:hover
+{
+color: rgb(0, 0, 0);
+background: rgb(255, 255, 255);
+transition: 0.6s ease-in;
+border-radius: 10px;
+}
+    
+        
+    
+        
+#menu
+{
+display: flex;
+list-style: none;
+gap: 0.5rem;
+}
+        
+#menu a 
+{
+display: block;
+margin-top: 10px;
+text-decoration: none;
+}
+        
+#btn-mobile
+{
+display: none;
+}
+        
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*Media Queries Barra de Navegação*/
+@media  (max-width: 240px) 
+{
+.logo
+{
+font-size: 0.8em;
+}
+#menu li a
+{
+font-size: 0.6em;
+}
+        
+#btn-mobile{
+background-repeat: no-repeat;
+}
+#header
+{
+height: 50px;
+}
+        
+#menu
+{
+position: absolute;
+right: 0px;
+}   
+}        
+/*-----------------------------------------------------------------------------------------------------------------*/
+     
+@media (max-width:1250px)
+{
+#menu
+{
+display: block;
+position: absolute;
+width: 100%;
+height: 100%;
+right: 0px;
+top: 30px;
+background-color: #f9db79;
+transition: 0.6s;
+z-index: 1;
+transform: translateX(-100%);
+visibility: hidden;
+overflow: hidden;
+} 
+
+nav ul li a
+{
+color: white;
+font-size: 1.7em;
+}
+
+    
+        
+        
+        
+#nav.active #menu
+{
+transform: translateX(0);
+height: 100vh;
+visibility: visible;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0, 0.9); 
+overflow: hidden;
+} 
+
+
+nav ul li a:hover
+{
+color: rgb(0, 0, 0);
+background: #f9db79;
+transition: 0.6s ease-in;
+border-radius: 10px;
+}
+        
+#btn-mobile
+{
+display: flex;
+padding:  15px;
+background: transparent;
+border: none;
+cursor: pointer;
+background-image: url('menu-btn-fearless.png');
+background-repeat: no-repeat;
+}
+
+#nav.active #btn-mobile
+{
+display: flex;
+padding:  15px;
+background: transparent;
+border: none;
+cursor: pointer;
+background-image: url('menu-btn-fearless-close-black.png');
+background-repeat: no-repeat;
+}
+}
+
+@media (min-width:1920px)
+{
+nav ul li a
+{
+font-size: 1.7em;
+}
+
+@media (min-width:1500px)
+{
+nav ul li a
+{
+font-size: 1.5em;
+}
+
+}
+}
+
+/*-------------------------------------------------------------------*/
+
+.title-fearless
+{
+background-color: #f9db79;
+width: 100%;
+height: 100px;
+background-image: url('logo-fearless.png');
+background-repeat: no-repeat;
+background-position-x: center;
+}
+
+section
+{
+width: 100%;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+} 
+
+/*-------------------------------------------------------------------*/
+/*Titulos*/
+.titulo-fearless
+{
+font-size: 3em;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 900;
+color: #dc8b39;
+border-bottom: 5px solid #dc8b39;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+/*-------------------------------------------------------------------*/
+
+/*Responsividade o Titulo*/
+@media (max-width:900px)
+{
+.titulo-fearless
+{
+font-size: 2.5em;
+}
+}
+
+@media (max-width:700px)
+{
+.titulo-fearless
+{
+font-size: 2em;
+}
+}
+@media (max-width:500px)
+{
+.titulo-fearless
+{
+font-size: 1.7em;
+}
+}
+@media (max-width:440px)
+{
+.titulo-fearless
+{
+font-size: 1.5em;
+}
+@media (max-width:360px)
+{
+.titulo-fearless
+{
+font-size: 1.3em;
+}
+}
+@media (max-width:310px)
+{
+.titulo-fearless
+{
+font-size: 1.2em;
+}
+}
+@media (max-width:300px)
+{
+.titulo-fearless
+{
+font-size: 1.2em;
+}
+}
+}
+
+
+
+
+/*-------------------------------------------------------------------*/
+
+
+/*Texto padrão*/
+.texto-fearless
+{
+font-family: 'Patrick Hand', cursive;
+font-size: 2.5em;
+color: #dc8b39;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 0px 30px;
+}
+
+
+/*Responsividade do texto*/
+@media (min-width:300px)
+{
+.texto-fearless
+{
+font-size: 1em;
+}
+}
+
+@media (min-width:360px)
+{
+.texto-fearless
+{
+font-size: 1em;
+}
+}
+
+@media (min-width:480px)
+{
+.texto-fearless
+{
+font-size: 2em;
+}
+}
+
+@media (min-width:550px)
+{
+.texto-fearless
+{
+font-size: 2em;
+}
+}
+
+@media (min-width:810px)
+{
+.texto-fearless
+{
+font-size: 2.5em;
+}
+}
+
+@media (min-width:1024px)
+{
+.texto-fearless
+{
+font-size: 2.5em;
+}
+}
+
+
+.img-disc-container
+{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin: 10px;
+}
+
+
+
+
+/*-------------------------------------------------------------------*/
+/*Responsividade das imagens de disco*/
+@media(max-width: 830px)
+{
+.img-disc-container
+{
+display: flex;
+flex-direction: column;
+}
+}
+
+@media(min-width: 300px)
+{
+.img-disc
+{
+width: 270px;
+height: 270px;
+margin: 10px;
+}
+@media(min-width: 360px)
+{
+.img-disc
+{
+width: 320px;
+height: 320px;
+margin: 10px;
+}
+
+@media(min-width: 600px)
+{
+.img-disc
+{
+width: 500px;
+height: 500x;
+margin: 10px;
+}
+@media(min-width: 900px)
+{
+.img-disc
+{
+width: 400px;
+height: 400px;
+margin: 10px;
+}
+}
+}
+}
+}
+/*-------------------------------------------------------------------*/
+/*Lista de Musicas*/
+#tabela-fearless
+{
+font-size: 1.9em;
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+color: #dc8b39;
+text-align: center;
+border: 3px solid #dc8b39;;
+display: flex;
+flex-direction: column;
+margin: 20px;
+}
+
+
+/*Responsividade da Tabela de Musicas*/
+@media (min-width:300px)
+{
+#tabela-fearless
+{
+font-size: 1.2em;
+}
+}
+
+@media (min-width:360px)
+{
+#tabela-fearless
+{
+font-size: 1.2em;
+}
+}
+
+@media (min-width:470px)
+{
+#tabela-fearless
+{
+font-size: 1.5em;
+}
+}
+
+@media (min-width:550px)
+{
+#tabela-fearless
+{
+font-size: 1.7em;
+}
+}
+
+@media (min-width:900px)
+{
+#tabela-fearless
+{
+font-size: 1.9em;
+}
+}
+
+/*-------------------------------------------------------------------*/
+/*Letras das musicas*/
+#tabela-fearless-letras
+{
+font-size: 1.9em;
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+color: #dc8b39;
+text-align: center;
+border: 3px solid #dc8b39;
+display: flex;
+flex-direction: column;
+margin: 20px;
+}
+
+
+#tabela-fearless-linha
+{
+border-bottom: 3px solid #dc8b39;
+}
+
+
+
+
+
+/*-------------------------------------------------------------------*/
+
+/*Responsividade das letras das musicas*/
+@media (min-width:300px)
+{
+#tabela-fearless-letra
+{
+font-size: 1.2em;
+}
+}
+
+@media (min-width:360px)
+{
+#tabela-fearless-letra
+{
+font-size: 1.2em;
+}
+}
+
+@media (min-width:470px)
+{
+#tabela-fearless-letra
+{
+font-size: 1.5em;
+}
+}
+
+@media (min-width:550px)
+{
+#tabela-fearless-letra
+{
+font-size: 1.7em;
+}
+}
+
+@media (min-width:900px)
+{
+#tabela-fearless-letra
+{
+font-size: 1.9em;
+}
+}
+/*---------------------------------------------------------------------*/
+/*Slide de iagens*/
+
+/*Configurações gerais do slider de imagens*/
+.content{
+width: 100%;
+display: inline;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+
+}
+/*-----------------------------------------------------------*/
+    
+    
+/*Configurações da barra de navegação*/
+.navegação{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+/*-----------------------------------------------------------*/
+    
+    
+/*Esconde  a barra de input*/
+input{
+display: none;
+}
+/*-----------------------------------------------------------*/
+    
+    
+/*Estilização das miniaturas da barra de navegação*/
+.miniatura{
+width: 150px;
+height: 150px;
+border: 2px solid #dc8b39;
+margin: 6px;
+border-radius: 5px;
+cursor: pointer;
+transition: .5s;
+z-index: 1;
+}
+/*-----------------------------------------------------------*/
+    
+    
+/*Estilizzação dos slides*/   
+.slides{
+display: flex;
+width: 500%;
+height: 100%;
+overflow-x: hidden;
+}
+/*-----------------------------------------------------------*/
+    
+    
+/*Configuração da trancisão*/
+.slide{
+width: 20%;
+transition: .6s;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+/*-----------------------------------------------------------*/
+    
+    
+/*Chamada para as imagens*/    
+#slide1:checked ~ .s1{
+margin-left: 0%;
+}
+        
+#slide2:checked ~ .s1{
+margin-left: -20%;
+}
+        
+#slide3:checked ~ .s1{
+margin-left: -40%;
+}
+        
+#slide4:checked ~ .s1{
+margin-left: -60%;
+}
+        
+#slide5:checked ~ .s1{
+margin-left: -80%;
+}
+    
+    
+/*-----------------------------------------------------------*/
+/*Responsividade do  Slider de imagens*/
+/*Miniaturas*/
+@media (max-width:830px)
+{
+.miniatura img
+{
+width: 100px;
+height: 100%;
+}
+.miniatura 
+{
+width: 100px;
+height: 100px;
+}
+@media (max-width:590px)
+{
+.miniatura img
+{
+width: 70px;
+height: 100%;
+}
+.miniatura 
+{
+width: 70px;
+height: 70px;
+}
+}
+@media (max-width:440px)
+{
+.miniatura img
+{
+width: 50px;
+height: 100%;
+}
+.miniatura 
+{
+width: 50px;
+height: 50px;
+}
+@media (max-width:330px)
+{
+.miniatura img
+{
+width: 40px;
+height: 100%;
+}
+.miniatura 
+{
+width: 40px;
+height: 40px;
+}
+}
+}
+}
+/*Imagem Principal*/
+@media (max-width:620px)
+{
+.slide img
+{
+width: 500px;
+height: 500px;
+}
+@media (max-width:520px)
+{
+.slide img
+{
+width: 400px;
+height: 400px;
+}
+@media (max-width:420px)
+{
+.slide img
+{
+width: 290px;
+height: 290px;
+}
+}
+}
+}
+/*-----------------------------------------------------------*/
+/*Musicas*/
+.musicas-container
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.musicas
+{
+font-family: 'Josefin Sans', sans-serif;
+font-size: 2.5em;
+color: #dc8b39;
+}
+/*-----------------------------------------------------------*/
+/*Responsividade dos titulos das musicas*/
+@media (max-width:580px)
+{
+.musicas
+{
+font-size: 2em;
+}
+}
+@media (max-width:480px)
+{
+.musicas
+{
+font-size: 1.7em;
+}
+}
+@media (max-width:410px)
+{
+.musicas
+{
+font-size: 1.5em;
+}
+}
+@media (max-width:360px)
+{
+.musicas
+{
+font-size: 1.3em;
+}
+}
+@media (max-width:310px)
+{
+.musicas
+{
+font-size: 1em;
+}
+}
+
+
+
+
+/*-----------------------------------------------------------*/
+
+
+/*DOWNLOAD*/
+.download
+{
+font-family: 'Josefin Sans', sans-serif;
+font-size:2em;
+text-align: center;
+width: 250px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+border: 3px solid rgb(255, 255, 255);
+border-radius: 20px;
+background: #dc8b39;
+display: flex;
+flex-direction: column;
+font-weight: 900;
+position: relative;
+top: 5px;
+margin-bottom: 20px;
+}
+
+
+.download:hover
+{
+background: rgb(248, 190, 30);
+color: rgb(0, 0, 0);
+transition: 0.7s ease-in;
+text-decoration: none;
+}
+/*---------------------------------------------------------------------*/
+
+/*Responsividade do botão de download*/
+@media(max-width:300px)
+{
+.download
+{
+font-size: 1.3em;
+}
+}
+
+@media(max-width:400px)
+{
+.download
+{
+font-size: 1.3em;
+}
+}
+/*---------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------*/
+/*Rodape*/
+footer
+{
+display: flex;
+flex-direction: column;
+width: 100%;
+background-color: #412f2d;
+}
+
+
+.footer-conteudo 
+{
+
+display: flex;
+flex-direction: column;
+}
+
+
+.footer-texto
+{
+font-size: 1.7em;
+font-family:Arial, Helvetica, sans-serif;
+color: rgb(255, 255, 255);
+text-align: center;
+margin: 15 15px;
+font-weight: 900;
+
+}
+
+.content-redes-sociais 
+{
+display: flex;
+flex-direction: row;
+margin: auto;
+}
+
+.mini-buttons
+{
+display: flex;
+flex-direction: row;
+margin: 0 20px;
+margin-bottom: 10px;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+

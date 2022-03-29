@@ -1,0 +1,1552 @@
+/*Configuraçãos do html*/
+html{
+height: 100%;
+margin: 0;
+}
+    
+    
+/*Configurações do corpo do site*/
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+list-style: none;
+box-sizing: border-box;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Hubballi', cursive;
+overflow-x: hidden;
+}
+/*------------------------------------------------------------------*/
+section
+{
+width: 100%;
+margin: auto;
+display: flex;
+flex-direction: column;
+} 
+
+    
+/*Cabeçelaho Estilização*/
+   
+    
+/*-----------------------------------------------------------------------------*/
+/*Logo do Site*/
+    
+.logo
+{
+color: rgb(0, 0, 0);
+font-weight: 900;
+font-size: 2em;
+display: flex;
+flex-direction: row;
+font-family: 'Bebas Neue', cursive;
+margin: 10px auto;
+}
+/*----------------------------------------------------------------------------*/
+
+/*Responsividade da logo*/
+@media(min-width: 300px)
+{
+.logo
+{
+font-size: 1.4em;
+}
+@media(min-width: 360px)
+{
+.logo
+{
+font-size: 1.7em;
+}
+}
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+/*Estilização da Aconcora*/
+a
+{
+font-family: 'Bebas Neue', cursive;
+
+}
+   
+/*-------------------------------------------------------------------------*/
+
+
+    
+    
+/*--------------------------------------------------------------------------*/
+ /*Barra de Navegação*/
+#header
+{
+box-sizing: border-box;
+height: 50px;
+padding: 1rem;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-family: 'Bebas Neue', cursive;
+font-size: 0.9em;
+background-color: #bb0000;
+width: 100%;
+height: 50px;
+}
+
+/*Capa*/
+.capa
+{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+/*----------------------------------------------------------*/
+/*Seleção de Albuns*/
+.nav-albuns
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:center;
+width: 100%;
+}
+
+
+.img-albuns
+{
+display: flex;
+flex-direction: row;
+}
+
+.img-albuns img 
+{
+margin: 5px 5px;
+border: 3px solid #ff0000;
+}
+
+/*Responsividade da selação de albuns*/
+@media (max-width: 1190px) 
+{
+.img-albuns img 
+{
+width: 300px;
+height: 300px;
+}
+}
+
+@media (max-width: 950px) 
+{
+.img-albuns img 
+{
+width: 200px;
+height: 200px;
+}
+}
+
+@media (max-width: 920px) 
+{
+.img-albuns img 
+{
+width: 200px;
+height: 200px;
+}
+}
+
+@media (max-width: 840px) 
+{
+.img-albuns img 
+{
+width: 260px;
+height: 260px;
+}
+}
+
+@media (max-width: 820px) 
+{
+.img-albuns img 
+{
+width: 255px;
+height: 255px;
+}
+}
+
+
+@media (max-width: 810px) 
+{
+.img-albuns img 
+{
+width: 240px;
+height: 240px;
+}
+}
+
+@media (max-width: 800px) 
+{
+.img-albuns img 
+{
+width: 230px;
+height: 230px;
+}
+}
+
+@media (max-width: 770px) 
+{
+.img-albuns img 
+{
+width: 220px;
+height: 220px;
+}
+}
+
+@media (max-width: 720px) 
+{
+.img-albuns img 
+{
+width: 210px;
+height: 210px;
+}
+}
+
+
+
+
+
+
+@media (max-width: 650px) 
+{
+.img-albuns img 
+{
+width: 190px;
+height: 190px;
+}
+}
+
+@media (max-width: 610px) 
+{
+.img-albuns img 
+{
+width: 170px;
+height: 170px;
+}
+}
+
+@media (max-width: 540px) 
+{
+.img-albuns img 
+{
+width: 150px;
+height: 150px;
+}
+}
+
+@media (max-width: 430px) 
+{
+.img-albuns img 
+{
+width: 125px;
+height: 125px;
+}
+}
+
+@media (max-width: 415px) 
+{
+.img-albuns img 
+{
+width: 120px;
+height: 120px;
+}
+}
+
+@media (max-width: 393px) 
+{
+.img-albuns img 
+{
+width: 100px;
+height: 100px;
+}
+}
+
+@media (max-width: 360px) 
+{
+.img-albuns img 
+{
+width: 100px;
+height: 100px;
+}
+}
+
+@media (max-width: 355px) 
+{
+.img-albuns img 
+{
+width: 90px;
+height: 90px;
+}
+}
+
+@media (max-width: 320px) 
+{
+.img-albuns img 
+{
+width: 80px;
+height: 80px;
+}
+}
+
+
+/*----------------------------------------------------------*/
+
+
+/*Alinhamento dos itens da lista*/
+nav ul li.itens-nav{
+position: relative;
+width: auto;
+margin: 0 16px;
+text-align: center;  
+font-family: 'Bebas Neue', cursive; 
+}
+        
+        
+/*Configurações de tamanhos de texto e cores dos itens da lista  */
+nav ul li a{
+color: rgb(0, 0, 0);
+font-size: 1.2em;
+text-decoration: none;
+transition: 0.5s ease-in;
+font-family: 'Bebas Neue', cursive;
+    
+}
+          
+
+
+
+          
+          
+        
+/*Configurações do efeito de  passar o mouse*/
+    
+nav ul li a:hover
+{
+color: rgb(255, 255, 255);
+background: rgb(119, 0, 0);
+transition: 0.6s ease-in;
+border-radius: 10px;
+}
+    
+        
+    
+        
+#menu
+{
+display: flex;
+list-style: none;
+gap: 0.5rem;
+}
+        
+#menu a 
+{
+display: block;
+margin-top: 10px;
+text-decoration: none;
+}
+        
+#btn-mobile
+{
+display: none;
+}
+    
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*Media Queries Barra de Navegação*/
+@media  (max-width: 240px) 
+{
+.logo
+{
+font-size: 0.8em;
+}
+#menu li a
+{
+font-size: 0.6em;
+}
+    
+#btn-mobile{
+background-repeat: no-repeat;
+}
+#header
+{
+height: 50px;
+}
+    
+#menu
+{
+position: absolute;
+right: 0px;
+}
+
+}        
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+@media (max-width:1250px)
+{
+#menu
+{
+display: block;
+position: absolute;
+width: 100%;
+height: 100%;
+right: 0px;
+top: 30px;
+background-color: #8a0101;
+transition: 0.6s;
+z-index: 1;
+transform: translateX(-100%);
+visibility: hidden;
+overflow: hidden;
+} 
+
+nav ul li a
+{
+color: white;
+font-size: 1.7em;
+}
+
+    
+        
+        
+        
+#nav.active #menu
+{
+transform: translateX(0);
+height: 100vh;
+visibility: visible;
+overflow: auto;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0, 0.9); 
+} 
+
+
+nav ul li a:hover
+{
+color: rgb(0, 0, 0);
+background: #810000;
+transition: 0.6s ease-in;
+border-radius: 10px;
+}
+        
+#btn-mobile
+{
+display: flex;
+padding:  15px;
+background: transparent;
+border: none;
+cursor: pointer;
+background-image: url('menu-btn-fearless.png');
+background-repeat: no-repeat;
+}
+
+#nav.active #btn-mobile
+{
+display: flex;
+padding:  15px;
+background: transparent;
+border: none;
+cursor: pointer;
+background-image: url('menu-btn-fearless-close-black.png');
+background-repeat: no-repeat;
+
+
+}
+}
+
+@media (min-width:1920px)
+{
+nav ul li a
+{
+font-size: 1.7em;
+}
+
+@media (min-width:1500px)
+{
+nav ul li a
+{
+font-size: 1.5em;
+}
+
+}
+}
+ 
+
+
+
+/*-------------------------------------------------------------------*/
+.title-red
+{
+background-color: #000000;
+width: 100%;
+height: 100px;
+background-image: url('logo-red.png');
+background-repeat: no-repeat;
+background-position-x: center;
+}
+
+.red-container
+{
+background-color: #610000;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.title-container-red
+{
+font-family: 'Smooch Sans', sans-serif;
+font-size: 5em;
+color: rgb(255, 255, 255);
+margin-top: 5px;
+}
+
+
+.title-container-red::before
+{
+content: '';
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 3px;
+border-radius: 5px;
+background: #ffffff;
+margin: auto;
+}
+
+.title-container-red::after
+{
+content: '';
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 3px;
+border-radius: 5px;
+background: #ffffff;
+margin: auto;
+}
+
+/*-------------------------------------------------------------------*/
+/*Responsividade dos titulos*/
+@media (max-width:1700px)
+{
+.title-container-red
+{
+font-size: 4.7em;
+}
+}
+@media (max-width:1500px)
+{
+.title-container-red
+{
+font-size: 4.5em;
+}
+}
+@media (max-width:1200px)
+{
+.title-container-red
+{
+font-size: 4.3em;
+}
+}
+@media (max-width:900px)
+{
+.title-container-red
+{
+font-size: 4em;
+}
+}
+
+@media (max-width:700px)
+{
+.title-container-red
+{
+font-size: 3.5em;
+}
+}
+@media (max-width:500px)
+{
+.title-container-red
+{
+font-size: 2.5em;
+}
+}
+@media (max-width:440px)
+{
+.title-container-red
+{
+font-size: 2.2em;
+}
+@media (max-width:360px)
+{
+.title-container-red
+{
+font-size: 2em;
+}
+}
+@media (max-width:310px)
+{
+.title-container-red
+{
+font-size: 1.5em;
+}
+}
+@media (max-width:300px)
+{
+.title-container-red
+{
+font-size: 1.5em;
+}
+}
+}
+
+/*-------------------------------------------------------------------*/
+
+
+/*Textos*/
+.text-red
+{
+font-size: 3.5em;
+font-family: 'Smooch Sans', sans-serif;
+color: white;
+display: flex;
+flex-direction: column;
+text-align: center;
+margin: 5px 30px;
+}
+/*-------------------------------------------------------------------*/
+
+/*Responsividade do texto*/
+@media (min-width:300px)
+{
+.text-red
+{
+font-size: 1.3em;
+}
+}
+
+@media (min-width:360px)
+{
+.text-red
+{
+font-size: 1.3em;
+}
+}
+
+@media (min-width:480px)
+{
+.text-red
+{
+font-size: 1.5em;
+}
+}
+
+@media (min-width:550px)
+{
+.text-red
+{
+font-size: 2em;
+}
+}
+
+@media (min-width:810px)
+{
+.text-red
+{
+font-size: 2.5em;
+}
+}
+
+@media (min-width:1024px)
+{
+.text-red
+{
+font-size: 3em;
+}
+}
+
+/*-------------------------------------------------------------------*/
+/*Capa*/
+.capa
+{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+/*-------------------------------------------------------------------*/
+
+/*Responsividade da capa*/
+@media (max-width:1250px)
+{    
+.capa
+{
+display: none;
+}
+
+}
+
+
+
+
+/*-------------------------------------------------------------------*/
+
+
+
+
+
+.img-disc-container
+{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin: 10px;
+}
+
+
+
+
+/*-------------------------------------------------------------------*/
+/*Responsividade das imagens de disco*/
+@media(max-width: 830px)
+{
+.img-disc-container
+{
+display: flex;
+flex-direction: column;
+}
+}
+
+@media(min-width: 300px)
+{
+.img-disc
+{
+width: 270px;
+height: 270px;
+margin: 10px;
+}
+@media(min-width: 360px)
+{
+.img-disc
+{
+width: 320px;
+height: 320px;
+margin: 10px;
+}
+
+@media(min-width: 600px)
+{
+.img-disc
+{
+width: 500px;
+height: 500x;
+margin: 10px;
+}
+@media(min-width: 900px)
+{
+.img-disc
+{
+width: 400px;
+height: 400px;
+margin: 10px;
+}
+}
+}
+}
+}
+
+
+
+
+.lista-musicas-title
+{
+font-family: 'Smooch Sans', sans-serif;
+font-size: 3.5em;
+color: rgb(255, 255, 255);
+border-bottom: white 3px solid;
+}
+
+.musicas-container
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 10px;
+}
+
+.musicas
+{
+margin-top: 10px;
+font-family: 'Smooch Sans', sans-serif;
+font-size: 3em;
+color: rgb(255, 255, 255);
+}
+
+/*---------------------------------------------------------------------*/
+/*Responsividade dos textos das musicas*/
+@media (min-width:300px)
+{
+.musicas
+{
+font-size: 0.9em;
+}
+@media (min-width:360px)
+{
+.musicas
+{
+font-size: 1.3em;
+}
+}
+}
+
+@media (min-width:400px)
+{
+.musicas
+{
+font-size: 1.5em;
+}
+}
+
+@media (min-width:500px)
+{
+.musicas
+{
+font-size: 2em;
+}
+}
+
+@media (min-width:700px)
+{
+.musicas
+{
+font-size: 2.5em;
+}
+@media (min-width:900px)
+{
+.musicas
+{
+font-size: 3em;
+}
+}
+}
+/*---------------------------------------------------------------------*/
+
+
+/*DOWNLOAD*/
+.download
+{
+font-size:2.5em;
+text-align: center;
+width: 150px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+border: 3px solid rgb(0, 0, 0);
+border-radius: 20px;
+background: rgb(136, 0, 0);
+display: flex;
+flex-direction: column;
+font-weight: 900;
+position: relative;
+top: 5px;
+margin-bottom: 10px;
+}
+
+
+.download:hover
+{
+background: rgb(0, 0, 0);
+color: rgb(255, 0, 0);
+transition: 0.7s ease-in;
+text-decoration: none;
+}
+/*---------------------------------------------------------------------*/
+
+/*Responsividade do botão de download*/
+@media(min-width:300px)
+{
+.download
+{
+font-size: 1.3em;
+}
+}
+
+@media(min-width:400px)
+{
+.download
+{
+font-size: 1.5em;
+}
+}
+
+@media(min-width:700px)
+{
+.download
+{
+font-size: 2em;
+}
+}
+
+#tabela
+{
+font-size: 2em;
+text-align: center;
+font-family: 'Smooch Sans', sans-serif;
+color: rgb(255, 255, 255);
+text-align: center;
+border: 5px solid white;
+display: flex;
+flex-direction: column;
+margin: 20px;
+
+}
+
+
+#linha-tabela
+{
+border-bottom: 5px solid white;
+}
+
+.efect-red:hover
+{
+background: rgb(255, 0, 0);
+color: black;
+cursor: pointer;
+}
+/*-------------------------------------------------------------------*/
+
+/*Responsividade da Tabela de Musicas*/
+@media (min-width:300px)
+{
+#tabela
+{
+font-size: 1.2em;
+}
+}
+
+@media (min-width:360px)
+{
+#tabela
+{
+font-size: 1.3em;
+}
+}
+
+@media (min-width:470px)
+{
+#tabela
+{
+font-size: 1.5em;
+}
+}
+
+@media (min-width:550px)
+{
+#tabela
+{
+font-size: 1.7em;
+}
+}
+
+@media (min-width:900px)
+{
+#tabela
+{
+font-size: 2em;
+}
+}
+
+
+
+/*-------------------------------------------------------------------*/
+
+/*Slider de Imagens*/
+
+.slideshow-container{
+background-color: #000000;
+min-width: 240px;
+transform: translate(1%,-1%);
+padding: 10px;
+border: 3px solid rgb(0, 0, 0);  
+display: flex;
+flex-direction: column;
+margin: auto;
+border: #ff0000 3px solid;
+}
+
+/*Configuração das imagens*/
+.Slides{
+display: flex;
+flex-direction: column;
+border: 2px solid rgb(0, 0, 0);     
+}
+.Slides > img{
+position: relative;
+width: 100%;
+display: flex;
+border: 1px solid rgb(255, 0, 0);  
+}
+
+/*------------------------------------------------------------------*/
+
+
+/*Configuração dos circulos*/
+.circulo-container
+{
+display: inline-block;
+margin: auto;
+}
+    
+.circulo{
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 5px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+      
+.ativo, .circulo:hover {
+background-color: #ff0000;
+}
+
+/*------------------------------------------------------------------*/
+
+
+/*Configuração dos botões de anterior/proximo*/
+.anterior, .proximo {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 10px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+font-size: 2em;
+margin: auto 15px;
+transition: 0.6s ease;
+border-radius: 30px;
+border: 5px solid rgb(255, 255, 255);
+user-select: none;
+background: none;
+}
+
+.proximo
+{
+position: absolute;
+right: 5px;
+}
+
+.anterior:hover, .proximo:hover
+{
+background-color: #ff0000;
+}
+/*------------------------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------------------------*/
+
+/*Resposividade do slider*/
+@media (max-width:850px)
+{
+.slideshow-container
+{
+margin-right: 5px;
+}
+}
+/*Ajustando tamanho  dos botões */
+@media (max-width:600px)
+{
+.anterior, .proximo
+{
+padding: 10px;
+font-size: 1.2em;
+}
+}
+
+@media (max-width:360px)
+{
+.anterior, .proximo
+{
+padding: 7px;
+font-size: 0.8em;
+}
+}
+
+@media (max-width:300px)
+{
+.anterior, .proximo
+{
+padding: 5px;
+font-size: 0.5em;
+}
+}
+/*------------------------------------------------------------------*/
+/*Rodape*/
+footer
+{
+display: flex;
+flex-direction: column;
+width: 100%;
+background-color: #f54646;
+}
+
+
+.footer-conteudo 
+{
+
+display: flex;
+flex-direction: column;
+}
+
+
+.footer-texto
+{
+font-size: 1.5em;
+font-family:Arial, Helvetica, sans-serif;
+color: rgb(255, 255, 255);
+text-align: center;
+margin: 15 15px;
+font-weight: 900;
+
+}
+
+.content-redes-sociais 
+{
+display: flex;
+flex-direction: row;
+margin: auto;
+}
+
+.mini-buttons
+{
+display: flex;
+flex-direction: row;
+margin: 0 20px;
+margin-bottom: 10px;
+align-items: center;
+justify-content: center;
+}
+
+/*------------------------------------------------------------------*/
+/*Red Taylor Version*/
+.red-container-new
+{
+background-color: #190d0d;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#header-2
+{
+box-sizing: border-box;
+height: 50px;
+padding: 1rem;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-family: 'Bebas Neue', cursive;
+font-size: 1.2em;
+background-color: #000000;
+width: 100%;
+height: 90px;
+}
+
+.title-red-2
+{
+width: 100%;
+height: 90px;
+background-image: url('logo-red-2.png');
+background-repeat: no-repeat;
+background-position-x: center;
+}
+/*------------------------------------------------------------------------*/
+
+.ts-img
+{
+width: 100%;
+}
+
+/*------------------------------------------------------------------------*/
+/*Titulo*/
+.title-container-red-new
+{
+font-family: 'Smooch Sans', sans-serif;
+font-size: 5em;
+color: #972d2f;
+margin-top: 20px;
+margin-bottom: 10px;
+font-weight: 900;
+}
+
+
+.title-container-red-new::before
+{
+content: '';
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 3px;
+border-radius: 5px;
+background: #972d2f;
+margin: auto;
+}
+
+.title-container-red-new::after
+{
+content: '';
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 3px;
+border-radius: 5px;
+background: #972d2f;
+margin: auto;
+}
+
+/*-------------------------------------------------------------------*/
+/*Responsividade dos titulos*/
+@media(min-width: 300px)
+{
+.title-container-red-new{
+font-size: 1.5em;
+}
+
+@media(min-width: 360px)
+{
+.title-container-red-new{
+font-size: 1.7em;
+}
+
+@media(min-width: 450px)
+{
+.title-container-red-new{
+font-size: 2em;
+}
+
+@media(min-width: 570px)
+{
+.title-container-red-new{
+font-size: 2.5em;
+}
+
+@media(min-width: 650px)
+{
+.title-container-red-new{
+font-size: 3em;
+}
+@media(min-width: 750px)
+{
+.title-container-red-2{
+font-size: 3.5em;
+}
+@media(min-width: 810px)
+{
+.title-container-red-new{
+font-size: 4em;
+}
+@media(min-width: 950px)
+{
+.title-container-red-new{
+font-size: 4.5em;
+}
+@media(min-width: 1024px)
+{
+.title-container-red-new{
+font-size: 5em;
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+/*-------------------------------------------------------------------*/
+
+
+.text-red-2
+{
+font-size: 3em;
+font-family: 'Smooch Sans', sans-serif;
+color: #972d2f;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+/*Responsividade do texto*/
+@media (min-width:300px)
+{
+.text-red-2
+{
+font-size: 1.3em;
+}
+}
+
+@media (min-width:360px)
+{
+.text-red-2
+{
+font-size: 1.4em;
+}
+}
+
+@media (min-width:480px)
+{
+.text-red-2
+{
+font-size: 1.5em;
+}
+}
+
+@media (min-width:550px)
+{
+.text-red-2
+{
+font-size: 1.7em;
+}
+}
+
+@media (min-width:810px)
+{
+.text-red-2
+{
+font-size: 2em;
+}
+}
+
+@media (min-width:1024px)
+{
+.text-red-2
+{
+font-size: 2.5em;
+}
+}
+
+/*-------------------------------------------------------------------*/
+/*Responsividade das imagens de disco*/
+@media(max-width: 830px)
+{
+.img-disc-container-2
+{
+display: flex;
+flex-direction: column;
+}
+}
+
+
+/*---------------------------------------------------*/
+/*Lista de Musicas*/
+#tabela-red-new
+{
+font-size: 1.9em;
+text-align: center;
+font-family: 'Smooch Sans', sans-serif;
+color: #972d2f;
+text-align: center;
+border: 3px solid #972d2f;;
+display: flex;
+flex-direction: column;
+margin: 20px;
+}
+
+
+#linha-tabela-red-new
+{
+border-bottom: 3px solid #972d2f;;
+}
+
+.efect:hover
+{
+background: rgb(255, 255, 255);
+color: black;
+}
+/*-------------------------------------------------------*/
+
+/*Responsividade da Tabela de Musicas*/
+@media (min-width:300px)
+{
+#tabela-red-new
+{
+font-size: 1.2em;
+}
+}
+
+@media (min-width:360px)
+{
+#tabela-red-new
+{
+font-size: 1.2em;
+}
+}
+
+@media (min-width:470px)
+{
+#tabela-red-new
+{
+font-size: 1.5em;
+}
+}
+
+@media (min-width:550px)
+{
+#tabela-red-new
+{
+font-size: 1.7em;
+}
+}
+
+@media (min-width:900px)
+{
+#tabela-red-new
+{
+font-size: 1.9em;
+}
+}
+
+/*-------------------------------------------------------------------*/
+/*Letras das musicas*/
+#tabela-red-new-letras
+{
+font-size: 1.9em;
+text-align: center;
+font-family: 'Smooch Sans', sans-serif;
+color: #972d2f;
+text-align: center;
+border: 3px solid #972d2f;
+display: flex;
+flex-direction: column;
+margin: 20px;
+}
+
+
+#linha-tabela-red-new-letras
+{
+border-bottom: 3px solid #972d2f;
+}
+
+
+
+
+
+/*-------------------------------------------------------------------*/
+
+/*Responsividade das letras das musicas*/
+@media (min-width:300px)
+{
+#tabela-red-new-letras
+{
+font-size: 1.2em;
+}
+}
+
+@media (min-width:360px)
+{
+#tabela-red-new-letras
+{
+font-size: 1.2em;
+}
+}
+
+@media (min-width:470px)
+{
+#tabela-red-new-letras
+{
+font-size: 1.5em;
+}
+}
+
+@media (min-width:550px)
+{
+#tabela-red-new-letras
+{
+font-size: 1.7em;
+}
+}
+
+@media (min-width:900px)
+{
+#tabela-red-new-letras
+{
+font-size: 1.9em;
+}
+}
+/*---------------------------------------------------------------------*/
+
+
+/*DOWNLOAD Red Taylor Version*/
+.download-red-new
+{
+font-family: 'Smooch Sans', sans-serif;
+font-size:1.5em;
+text-align: center;
+width: 80%;
+color: rgb(0, 0, 0);
+text-decoration: none;
+border: 3px solid rgb(255, 0, 0);
+background: rgb(255, 255, 255);
+display: block;
+flex-direction: row;
+font-weight: 900;
+margin: 5px auto;
+}
+
+
+.download-red-new:hover
+{
+background: rgb(0, 0, 0);
+color: rgb(255, 0, 0);
+transition: 0.7s ease-in;
+text-decoration: none;
+}
+/*---------------------------------------------------------------------*/
+
+/*Responsividade do botão de download*/
+@media(min-width:300px)
+{
+.download-red-new
+{
+font-size: 1.3em;
+}
+}
+
+@media(min-width:400px)
+{
+.download-red-new
+{
+font-size: 1.5em;
+}
+}
+
+@media(min-width:700px)
+{
+.download-red-new
+{
+font-size: 1.5em;
+}
+}
+
+
+    
