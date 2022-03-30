@@ -990,21 +990,21 @@ font-size: 2em;
 {
 .musicas
 {
-font-size: 1.7em;
+font-size: 1.5em;
 }
 }
 @media (max-width:410px)
 {
 .musicas
 {
-font-size: 1.5em;
+font-size: 1.3em;
 }
 }
 @media (max-width:360px)
 {
 .musicas
 {
-font-size: 1.3em;
+font-size: 1em;
 }
 }
 @media (max-width:310px)
