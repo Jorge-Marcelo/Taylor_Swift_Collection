@@ -1370,14 +1370,14 @@ font-size: 1.5em;
 {
 .musicas-2
 {
-font-size: 1em;
+font-size: 1.3em;
 }
 }
 @media (max-width:360px)
 {
 .musicas-2
 {
-font-size: 0.9em;
+font-size: 1em;
 }
 }
 @media (max-width:310px)
