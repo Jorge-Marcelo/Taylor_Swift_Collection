@@ -517,7 +517,7 @@ font-size: 1.5em;
 {
 .titulo-fearless
 {
-font-size: 1.3em;
+font-size: 1.5em;
 }
 }
 @media (max-width:310px)
@@ -569,7 +569,7 @@ font-size: 1em;
 {
 .texto-fearless
 {
-font-size: 1em;
+font-size: 1.3em;
 }
 }
 
@@ -1132,7 +1132,7 @@ font-size: 1.5em;
 {
 .titulo-fearless-2
 {
-font-size: 1.3em;
+font-size: 1.5em;
 }
 }
 @media (max-width:310px)
@@ -1184,7 +1184,7 @@ font-size: 1em;
 {
 .texto-fearless-2
 {
-font-size: 1em;
+font-size: 1.3em;
 }
 }
 
