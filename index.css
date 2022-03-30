@@ -462,7 +462,6 @@ background-position-x: center;
 section
 {
 width: 100%;
-margin: auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -1069,7 +1068,360 @@ font-size: 1.3em;
 }
 }
 /*---------------------------------------------------------------------*/
+.fearless-new-container
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+background-color: #e2c6ac;
+}
 
+.ts-img
+{
+width: 100%;
+}
+
+
+/*Titulos*/
+.titulo-fearless-2
+{
+font-size: 3em;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 900;
+color: #412f2d;
+border-bottom: 5px solid #6e533c;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+/*-------------------------------------------------------------------*/
+
+/*Responsividade o Titulo*/
+@media (max-width:900px)
+{
+.titulo-fearless-2
+{
+font-size: 2.5em;
+}
+}
+
+@media (max-width:700px)
+{
+.titulo-fearless-2
+{
+font-size: 2em;
+}
+}
+@media (max-width:500px)
+{
+.titulo-fearless-2
+{
+font-size: 1.7em;
+}
+}
+@media (max-width:440px)
+{
+.titulo-fearless-2
+{
+font-size: 1.5em;
+}
+@media (max-width:360px)
+{
+.titulo-fearless-2
+{
+font-size: 1.3em;
+}
+}
+@media (max-width:310px)
+{
+.titulo-fearless-2
+{
+font-size: 1.2em;
+}
+}
+@media (max-width:300px)
+{
+.titulo-fearless-2
+{
+font-size: 1.2em;
+}
+}
+}
+
+
+
+
+/*-------------------------------------------------------------------*/
+
+
+/*Texto padrão*/
+.texto-fearless-2
+{
+font-family: 'Patrick Hand', cursive;
+font-size: 2.5em;
+color: #6e533c;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 10px 30px;
+}
+
+
+/*Responsividade do texto*/
+@media (min-width:300px)
+{
+.texto-fearless-2
+{
+font-size: 1em;
+}
+}
+
+@media (min-width:360px)
+{
+.texto-fearless-2
+{
+font-size: 1em;
+}
+}
+
+@media (min-width:480px)
+{
+.texto-fearless-2
+{
+font-size: 2em;
+}
+}
+
+@media (min-width:550px)
+{
+.texto-fearless-2
+{
+font-size: 2em;
+}
+}
+
+@media (min-width:810px)
+{
+.texto-fearless-2
+{
+font-size: 2.5em;
+}
+}
+
+@media (min-width:1024px)
+{
+.texto-fearless-2
+{
+font-size: 2.5em;
+}
+}
+
+.img-disc-container
+{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin: 10px;
+}
+
+
+
+
+/*-------------------------------------------------------------------*/
+/*Responsividade das imagens de disco*/
+@media(max-width: 830px)
+{
+.img-disc-container
+{
+display: flex;
+flex-direction: column;
+}
+}
+
+@media(min-width: 300px)
+{
+.img-disc
+{
+width: 270px;
+height: 270px;
+margin: 10px;
+}
+@media(min-width: 360px)
+{
+.img-disc
+{
+width: 320px;
+height: 320px;
+margin: 10px;
+}
+
+@media(min-width: 600px)
+{
+.img-disc
+{
+width: 500px;
+height: 500x;
+margin: 10px;
+}
+@media(min-width: 900px)
+{
+.img-disc
+{
+width: 400px;
+height: 400px;
+margin: 10px;
+}
+}
+}
+}
+}
+/*-------------------------------------------------------------------*/
+/*Lista de Musicas*/
+#tabela-fearless-2
+{
+font-size: 1.9em;
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+color: #6e533c;
+text-align: center;
+border: 3px solid #6e533c;
+display: flex;
+flex-direction: column;
+margin: 20px;
+}
+
+
+/*Responsividade da Tabela de Musicas*/
+@media (min-width:300px)
+{
+#tabela-fearless-2
+{
+font-size: 1.2em;
+}
+}
+
+@media (min-width:360px)
+{
+#tabela-fearless-2
+{
+font-size: 1.2em;
+}
+}
+
+@media (min-width:470px)
+{
+#tabela-fearless-2
+{
+font-size: 1.5em;
+}
+}
+
+@media (min-width:550px)
+{
+#tabela-fearless-2
+{
+font-size: 1.7em;
+}
+}
+
+@media (min-width:900px)
+{
+#tabela-fearless-2
+{
+font-size: 1.9em;
+}
+}
+
+#tabela-fearless-linha-2
+{
+border-bottom: 3px solid #6e533c;
+}
+
+.musicas-2
+{
+font-family: 'Josefin Sans', sans-serif;
+font-size: 2.5em;
+color: #6e533c;
+margin:10px 20px;
+}
+/*-----------------------------------------------------------*/
+/*Responsividade dos titulos das musicas*/
+@media (max-width:580px)
+{
+.musicas-2
+{
+font-size: 2em;
+}
+}
+@media (max-width:480px)
+{
+.musicas-2
+{
+font-size: 1.5em;
+}
+}
+@media (max-width:410px)
+{
+.musicas-2
+{
+font-size: 1em;
+}
+}
+@media (max-width:360px)
+{
+.musicas-2
+{
+font-size: 0.3em;
+}
+}
+@media (max-width:310px)
+{
+.musicas-2
+{
+font-size: 1em;
+}
+}
+
+
+
+
+/*-----------------------------------------------------------*/
+
+
+/*DOWNLOAD*/
+.download-2
+{
+font-family: 'Josefin Sans', sans-serif;
+font-size:2em;
+text-align: center;
+width: 250px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+border: 3px solid rgb(255, 255, 255);
+background: #6e533c;
+display: flex;
+flex-direction: column;
+font-weight: 900;
+position: relative;
+top: 5px;
+margin-bottom: 20px;
+}
+
+
+.download-2:hover
+{
+background: rgb(0, 0, 0);
+color: #ffffff;
+transition: 0.7s ease-in;
+text-decoration: none;
+}
+/*---------------------------------------------------------------------*/
 
 
 
